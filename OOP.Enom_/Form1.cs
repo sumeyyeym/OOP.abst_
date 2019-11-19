@@ -44,6 +44,24 @@ Personel Departmanı: {p.Departman} "); //@ ile içerideki özel kullanımların
 
             listBox1.Items.Add(p);
             textBox1.Text = textBox2.Text = "";
+
+            switch (p.Departman) //p.Departmanı yazdıktan sonra alt ok tuşuna tıklarsan case kısmı otomatik gelir
+            {
+                case Departman.Yazılım:
+                    break;
+                case Departman.Sistem:
+                    break;
+                case Departman.Grafik:
+                    break;
+                case Departman.Muhasebe:
+                    break;
+                case Departman.TeknikÇizim:
+                    break;
+                case Departman.Ofis:
+                    break;
+                default:
+                    break;
+            }
         }                
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace OOP.Enom_
+namespace OOP.Sealed_
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace OOP.Enom_
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3());
+            Application.Run(new Form1());
         }
     }
 }
